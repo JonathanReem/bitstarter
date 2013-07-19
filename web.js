@@ -7,7 +7,7 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-app.get('/index.html', function(req, res) {
+app.get('/', function(req, res) {
    res.send(index)
 });
 
