@@ -8,9 +8,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.writeHeader(200, {"Content-Type": "text/html"});
   response.write(index);
-  response.end();
 });
 
 var port = process.env.PORT || 5000;
