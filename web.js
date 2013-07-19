@@ -8,8 +8,8 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  var body = index;
-  response.write(body);
+  response.writeHeader(200, {"Content-Type": "text/html"});
+  response.write(index);
   response.end();
 });
 
