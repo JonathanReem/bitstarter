@@ -1,0 +1,44 @@
+/* Css for progress box, including statistics and social buttons. 
+------------------------------------------------------------------- */
+
+/* White line dividers definitions, changing depending on screen size
+--------------------------------------------------------------------- */
+
+	/* Large desktop */
+    @media (min-width: 481px) { 
+	    .linediv-l {
+	    	border-right: 1px white solid;
+	    }
+	    .linediv-r {
+	    	border-left: 1px white solid;
+	    }
+	}
+
+	/* Landscape phones and down */
+	@media (max-width: 480px) { 
+        .copy {
+        	padding: 2.5% 10%;
+        }
+        .linediv-l {
+       		border-bottom: 1px white solid;
+        }
+        .linediv-r {
+        	border-top: 1px white solid;
+        }
+    }
+
+ /* Box placement, thermometer, order, social, and staticstics classes. 
+ ------------------------------------------------------------------------ */
+ 	.order {
+        padding: 2% 0%;
+      }
+      .actions {
+        background-color: #343434;
+        padding: 3% 0%;
+      }
+      .video, .thermometer, .order, .social, .statistics {
+        text-align: center;
+      }
+      .statistics h3, .statistics p {
+        color: white;
+      }
