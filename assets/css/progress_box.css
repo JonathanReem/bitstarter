@@ -5,7 +5,7 @@
 --------------------------------------------------------------------- */
 
 	/* Large desktop */
-    @media (min-width: 980px) { 
+    @media (min-width: 481px) { 
 	    .linediv-l {
 	    	border-right: 1px white solid;
 	    }
@@ -26,3 +26,19 @@
         	border-top: 1px white solid;
         }
     }
+
+ /* Box placement, thermometer, order, social, and staticstics classes. 
+ ------------------------------------------------------------------------ */
+ 	.order {
+        padding: 2% 0%;
+      }
+      .actions {
+        background-color: #343434;
+        padding: 3% 0%;
+      }
+      .video, .thermometer, .order, .social, .statistics {
+        text-align: center;
+      }
+      .statistics h3, .statistics p {
+        color: white;
+      }
